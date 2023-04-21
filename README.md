@@ -9,6 +9,6 @@ In this script, we first set up the OpenAI API key and model engine. Then, we de
 
 Next, we set up the Twilio account details and define a function `handle_message` to handle incoming WhatsApp messages. This function generates a response using `generate_response` and sends it back to the user.
 
-Finally, we set up a Twilio webhook using Flask to listen for incoming messages and call `handle_message` to handle them. When a user sends a message to your WhatsApp Business account, Twilio will send a webhook to your server, which will generate a response using OpenAI and send it back to the user.
+Finally, we set up a Twilio webhook using Flask to listen for incoming messages and call `handle_message` to handle them. When a user sends a message to your WhatsApp account, Twilio will send a webhook to your server, which will generate a response using OpenAI and send it back to the user.
 
 Note that you will need to set up a webhook URL in your Twilio account and configure your WhatsApp account to use it. You will also need to have a publicly accessible server to host this script.
